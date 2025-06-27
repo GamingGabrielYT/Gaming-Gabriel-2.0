@@ -1,0 +1,112 @@
+.nav-link:hover {
+  color: rgb(84, 84, 84);
+}
+.nav-link {
+  color: rgb(255, 255, 255);
+}
+.divClass {
+  margin-left: 50px;
+}
+#aTag {
+  color: rgb(255, 255, 255);
+}
+#aTag:hover {
+  color: rgb(84, 84, 84);
+}
+a{
+    text-decoration: none;
+}
+#Header{
+    color:rgb(255, 255, 255);
+}
+#Header:hover{
+    color:rgb(84, 84, 84);
+}
+.jumbotron{
+    background-image: url('https://img.freepik.com/free-vector/dark-hexagonal-background-with-gradient-color_79603-1409.jpg?semt=ais_hybrid&w=740');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color:white;
+    padding:70px;
+    margin-top:40px;
+}
+body {
+    background-color:rgb(10, 10, 10);
+    color:white;
+}
+#image1{
+    width:300px;
+    height:280px;
+    border-radius:12.5px;
+}
+.col6{
+    padding:7.5%;
+    text-align: center;
+}
+footer{
+    background-color: rgb(98, 98, 98);
+    padding:10px;
+}
+#image2{
+    width:300px;
+    height:280px;
+    border-radius: 12.5px;
+}
+#H1{
+  background: -webkit-linear-gradient(rgb(0, 0, 0), rgb(255, 0, 0), rgb(0, 145, 255));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#iframe1{
+  width:500px;
+  height:350px;
+  margin-left:60px;
+}
+.row{
+  margin-top:60px;
+}
+.col-6{
+  padding:5%;
+}
+#iframe2{
+  width:500px;
+  height:350px;
+  margin-right:60px;
+}
+#iframe3{
+  width:500px;
+  height:350px;
+  margin-left:60px;
+}
+.carousel{
+  margin-top:75px;
+}
+.image{
+  width:150px;
+  height:150px;
+  text-align:center;
+  margin-left:25%;
+  border-radius:12.5px;
+}
+.card{
+  margin:20px;
+}
+.divdiv{
+  margin-left:30%;
+  margin-right:30%;
+}
+.form{
+  border:2px solid white;
+  border-radius:12.5px;
+  padding:20px;
+}
+.jumbo{
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNhLZ-Ymz3XikxkMfGTK9jmq96YTMHGPHmlQ&s');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.footer{
+  margin-top:7%;
+}
