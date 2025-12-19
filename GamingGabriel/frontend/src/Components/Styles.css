@@ -1,0 +1,449 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Hegarty&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+
+h1{
+  font-family: 'BBH Hegarty';
+}
+.h3{
+  font-family: 'BBH Hegarty';
+  margin-left: 30%;
+}
+p{
+  font-family: 'Google Sans';
+}
+.nav-link:hover {
+  color: rgb(84, 84, 84);
+}
+.nav-link {
+  color: rgb(255, 255, 255);
+}
+.divClass {
+  margin-left: 50px;
+}
+#aTag {
+  color: rgb(255, 255, 255);
+}
+#aTag:hover {
+  color: rgb(84, 84, 84);
+}
+a{
+    text-decoration: none;
+}
+#Header{
+    color:rgb(255, 255, 255);
+}
+#Header:hover{
+    color:rgb(84, 84, 84);
+}
+.jumbotron{
+    background-image: url('https://imgs.search.brave.com/qrESkj7wRFghopiHrtwKlgJl5AN8LCBxATWP_To7B7c/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/c3ZnYXRvci5jb20v/aW1hZ2VzLzIwMjIv/MDYvdXNlLXN2Zy1h/cy1iYWNrZ3JvdW5k/LWltYWdlLXBhcnRp/Y2xlLXN0cm9rZXMu/c3Zn');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color:white;
+    padding:70px;
+    margin-top:40px;
+}
+body {
+    background-color:rgb(10, 10, 10);
+    color:white;
+}
+#image1{
+    width:300px;
+    height:280px;
+    border-radius:12.5px;
+}
+.col6{
+    padding:7.5%;
+    text-align: center;
+    margin-top:5%;
+}
+footer{
+    background-color: rgb(98, 98, 98);
+    padding:10px;
+    margin-top:20px;
+}
+.paragrapH {
+  margin-top:10%;
+  margin-left:30px;
+}
+#image2{
+    width:80%;
+    border-radius: 12.5px;
+    margin-left:45%
+}
+#H1{
+  background: -webkit-linear-gradient(rgb(0, 0, 0), rgb(255, 0, 0), rgb(0, 145, 255));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#iframe1{
+  width:500px;
+  height:350px;
+  margin-left:60px;
+}
+/*
+Source - https://stackoverflow.com/a
+Posted by vsync, modified by community. See post 'Timeline' for change history
+Retrieved 2025-12-11, License - CC BY-SA 4.0
+*/
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  position: relative;
+}
+
+header {
+  min-height: 50px;
+  background: lightcyan;
+}
+
+footer {
+  background:rgb(98, 98, 98);
+}
+
+
+/* Trick: */
+body {
+  position: relative;
+}
+
+body::after {
+  content: '';
+  display: block;
+  height: 50px;
+  /* Set same as footer's height */
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+}
+.row{
+  margin-top:60px;
+}
+.col-6{
+  padding:5%;
+}
+#iframe2{
+  width:500px;
+  height:350px;
+  margin-right:60px;
+}
+#iframe3{
+  width:500px;
+  height:350px;
+  margin-left:60px;
+}
+.carousel{
+  margin-top:75px;
+}
+.image{
+  width:150px;
+  height:150px;
+  text-align:center;
+  margin-left:25%;
+  border-radius:12.5px;
+}
+.card{
+  margin:20px;
+}
+.divdiv{
+  margin-left:30%;
+  margin-right:30%;
+}
+.form{
+  border:2px solid white;
+  border-radius:12.5px;
+  padding:20px;
+}
+.jumbo{
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNhLZ-Ymz3XikxkMfGTK9jmq96YTMHGPHmlQ&s');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.footer{
+  margin-top:7%;
+}
+/* Smooth dropdown animation — Bootstrap 5 FIX */
+.smooth-dropdown .dropdown-menu {
+  opacity: 0;
+  transform: translateY(10px);
+  transition: all 0.25s ease;
+  visibility: hidden;
+  display: block !important; /* Prevents jumpy animation */
+}
+
+.smooth-dropdown .dropdown-menu.show {
+  opacity: 1;
+  transform: translateY(0px);
+  visibility: visible;
+}
+.smooth-dropdown .dropdown-menu {
+  background-color: #0f0f0f;
+  border: 1px solid #303030;
+  border-radius: 8px;
+  min-width: 220px;
+  padding: 8px 0;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.45);
+
+  /* smooth animation */
+  opacity: 0;
+  transform: translateY(10px);
+  transition: 0.25s ease;
+  visibility: hidden;
+  display: block !important;
+}
+
+.smooth-dropdown .dropdown-menu.show {
+  opacity: 1;
+  transform: translateY(0);
+  visibility: visible;
+}
+
+/* item styling */
+.smooth-dropdown .dropdown-item {
+  color: #cfcfcf;
+  padding: 10px 18px;
+  transition: 0.2s;
+  border-radius: 4px;
+}
+
+.smooth-dropdown .dropdown-item:hover {
+  background-color: #262626;
+  color: #4eaaff;
+}
+
+
+
+/* RDR1 Theme */
+.rdr1-theme {
+  background: linear-gradient(to right, #6d4c41, #a1887f); /* brownish Wild West */
+  color: #fff;
+  font-weight: bold;
+}
+
+.rdr1-theme:hover {
+  background: linear-gradient(to right, #5d4037, #8d6e63);
+  color: #ffd700; /* golden highlight */
+}
+
+/* RDR2 Theme */
+.rdr2-theme {
+  background: linear-gradient(to right, #530202, #b90202); /* darker western style */
+  color: #f5f5f5;
+  font-weight: bold;
+}
+
+.rdr2-theme:hover {
+  background: linear-gradient(to right, #440707, #ad0202);
+  color: #ffcc00;
+}
+
+/* GTA5 Theme */
+.gta5-theme {
+  background: linear-gradient(to right, #191f19, #264929); /* dark city vibe */
+  color: #00ffff;
+  font-weight: bold;
+}
+
+.gta5-theme:hover {
+  background: linear-gradient(to right, #10140f, #112211);
+  color: #ff0000; /* neon/red pop */
+}
+
+/* Hero Section */
+.hero-section {
+  position: relative;
+  text-align: center;
+  color: white;
+  padding: 100px 60px;
+  background-color: #000; /* fallback if image doesn't load */
+}
+
+.hero-section .hero-image {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  opacity: 0.7; /* slightly transparent for text visibility */
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+#H1 {
+  font-size: 3rem;
+  color: #00ffff;
+  text-shadow: 0 0 1px #0059ff, 0 0 2px #0059ff, 0 0 4px #0059ff;
+}
+
+.ppptag{
+  width:100%;
+}
+.pppptag{
+  width:100%;
+}
+.h2222{
+  color: black;
+}
+
+/* Card container */
+.col6 .card {
+  background-color: #111;           /* dark gaming background */
+  border: 1px solid #222;           /* subtle border */
+  border-radius: 12px;              /* rounded corners */
+  padding: 30px 20px;
+  transition: transform 0.3s, box-shadow 0.3s; /* smooth hover animation */
+  cursor: pointer;
+
+  /* Prevent paragraph overflow */
+  overflow-wrap: break-word;
+  word-break: break-word;   /* optional: limit card width */
+  margin: 0 auto;        /* center card in column */
+}
+
+/* Hover effect */
+.col6 .card:hover {
+  transform: translateY(-8px);               /* lift card on hover */
+  box-shadow: 0 8px 20px rgba(0, 255, 255, 0.5); /* neon cyan glow */
+}
+
+/* Card headings */
+.col6 .card h3 {
+  color: #00ffff;              /* neon cyan title */
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-shadow: 0 0 3px #00ffff;
+}
+
+/* Card paragraphs */
+.col6 .card p {
+  color: #ccc;                 /* light text for readability */
+  line-height: 1.6;
+
+  /* Prevent paragraph overflow */
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+/* Buttons inside cards */
+.col6 .card .btn {
+  border: 1px solid #00ffff;
+  color: #00ffff;
+  transition: all 0.3s;
+}
+
+.col6 .card .btn:hover {
+  background-color: #00ffff;
+  color: #111;
+  box-shadow: 0 0 10px #00ffff;
+}
+
+/* Optional: add small icons inside card headings */
+.col6 .card h3::before {
+  content: "🎮";               /* example gaming icon */
+  margin-right: 8px;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  .col6 {
+    padding: 5%;
+  }
+  .col6 .card {
+    padding: 20px 15px;
+    max-width: 100%;
+  }
+}
+.card-fixed {
+  width: 100%;              /* make sure card does not overflow its column */
+  box-sizing: border-box;   /* include padding in width calculation */
+  word-break: break-word;   /* wrap long words */
+  overflow-wrap: break-word;
+}
+
+.card-fixed p {
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+
+.col6 .card,
+.col6 .card p {
+  max-width: 100%;        /* ensure content doesn't overflow */
+  word-break: break-word; /* break long words */
+  overflow-wrap: break-word;
+}
+.col6 {
+  padding: 15px; /* adjust as needed */
+}
+p {
+  margin: 0 0 1em 0; /* avoid negative margins */
+  line-height: 1.5;
+}
+/*Sign-in.js Sign in CSS */
+* {
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+        }
+        .login-container{
+            background-color: #fff;
+            padding: 40px 35px;
+            border-radius: 20px;
+            box-shadow: 0 0 35px rgba(255, 255, 255, 0.3);
+            width:350px;
+            text-align: center;
+            margin-left: 41%;
+            margin-top:5%;
+        }
+        .login-container img {
+            width:50px;
+            margin-bottom: 15px;
+        }
+        .login-container input {
+            width: 100%;
+            padding: 14px 15px;
+            margin: 10px 0;
+            border: 1px solid #d2d2d7;
+            border-radius: 12px;
+            font-size: 16px;
+            background: #f9f9f9;
+            transition: 0.3s ease;
+        }
+        .login-container input:focus{
+            border-color: #0071e3;
+            background: #fff;
+            outline: none;
+            box-shadow: 0 0 0 3px rgba(0,113,227,0.2);
+        }
+        .login-container button{
+            width: 100%;
+            padding:14px;
+            margin-top: 20px;
+            border: none;
+            border-radius: 12px;
+            background: #0071e3;
+            color:#fff;
+            font-size: 16px;
+            font-weight: 500;
+            cursor:pointer;
+            transition: 0.3s ease;
+        }
+        .login-container button:hover{
+            background: #005bb5;
+        }
+        .login-container p {
+            margin-top: 20px;
+            font-size: 14px;
+            color:#6e6e73;
+        }
+        .login-container p a {
+            color:#0071e3;
+            text-decoration: none;
+        }
+        .login-container p a:hover{
+            text-decoration: underline;
+        }
