@@ -78,13 +78,6 @@ function Navbar() {
                     </a>
                   </li>
                 </NavLink>
-                <NavLink to="sign-up">
-                  <li className="nav-item" id="a">
-                    <a className="nav-link" href="#">
-                      Sign Up
-                    </a>
-                  </li>
-                </NavLink>
               </ul>
             </div>
           </div>

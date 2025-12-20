@@ -1,14 +1,20 @@
 const express = require("express");
+require("dotenv").config();
 const cors = require("cors");
 const path = require("path");
-const authRoutes = require("./routes/auth");
-
 const app = express();
 
+const mailRoutes = require("./routes/mail");
 app.use(cors());
 app.use(express.json());
 
-app.use("/api/auth", authRoutes);
+app.use("/api/mail", mailRoutes);
+
+
+
+
+
+
 
 
 app.use(express.static(path.join(__dirname, "../frontend/build")));
